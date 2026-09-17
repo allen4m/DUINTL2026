@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""><link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&amp;family=Work+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet"><style>
+:root{--type-title:76px;--type-section:104px;--type-subtitle:46px;--type-body:34px;--type-small:28px;--type-eyebrow:24px;--type-stat:108px;--pad-x:110px;--pad-top:100px;--pad-bottom:88px;--gap-title:48px;--gap-item:26px;--ink:#1C1B19;--paper:#FBFAF8;--crimson:#A6192E;--dark:#171614;--muted:#4A4640;--rule:#E3DFD9;--serif:'Libre Baskerville',Georgia,serif;--sans:'Work Sans',system-ui,sans-serif}
+*{box-sizing:border-box}
+body{margin:0;background:#22201E;font-family:var(--sans);color:var(--ink)}
+a{color:var(--crimson)}a:hover{color:#75111f}
+img{display:block}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
+</style></helmet>
+
+<x-import component-from-global-scope="deck-stage" from="./deck-stage.js" width="1920" height="1080" hint-size="100%,100%" data-uneditable="">
+
+<section data-label="Title" data-screen-label="01" data-speaker-notes="Welcome. Twenty minutes, then questions. I am Allen Long, Director of International Admission — I read every international application myself, so you are meeting the person who will handle yours." style="background:var(--crimson);display:grid;grid-template-columns:1fr 0.85fr">
+<div style="padding:var(--pad-top) var(--pad-x) var(--pad-bottom);display:flex;flex-direction:column;justify-content:center">
+<img src="deck-img/du-logo-white.png" alt="Drury University" style="width:420px;height:auto;margin-bottom:56px">
+<div style="font-size:var(--type-eyebrow);font-weight:600;letter-spacing:.2em;color:#FBE3E7">SPRINGFIELD, MISSOURI, UNITED STATES</div>
+<h1 style="font-family:var(--serif);font-weight:400;font-size:var(--type-title);line-height:1.1;color:#fff;margin:var(--gap-title) 0 0">Your Perfect Launchpad in a Close-Knit Community</h1>
+<p style="font-size:var(--type-subtitle);line-height:1.35;color:#fff;margin:36px 0 0">An introduction for international families</p>
+<div style="margin-top:auto;padding-top:56px;border-top:1px solid rgba(255,255,255,.32);font-size:var(--type-small);line-height:1.5;color:#FBE3E7">Allen Long · Director of International Admission<br>xlong@drury.edu · WhatsApp +1 417-607-6394</div>
+</div>
+<img src="deck-img/campus-cover.jpg" alt="Wallace Hall on the Drury University campus" style="width:100%;height:100%;object-fit:cover">
+</section>
+
+<section data-label="At a Glance" data-screen-label="02" data-speaker-notes="Small by design. Fourteen hundred undergraduates means your child is known by name — that is the single biggest difference between Drury and a large state university." style="background:var(--paper);color:var(--ink);padding:var(--pad-top) var(--pad-x) var(--pad-bottom);display:flex;flex-direction:column">
+<h2 style="font-family:var(--serif);font-weight:400;font-size:var(--type-title);line-height:1.1;margin:0">Drury at a Glance</h2>
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:var(--gap-title);border-top:2px solid var(--ink)">
+<div style="padding:44px 40px 44px 0;border-right:1px solid var(--rule)"><div style="font-family:var(--serif);font-size:var(--type-stat);line-height:1;color:var(--crimson)">1873</div><div style="font-size:var(--type-small);color:var(--muted);margin-top:18px">founded</div></div>
+<div style="padding:44px 40px;border-right:1px solid var(--rule)"><div style="font-family:var(--serif);font-size:var(--type-stat);line-height:1;color:var(--crimson)">90+</div><div style="font-size:var(--type-small);color:var(--muted);margin-top:18px">acres of historic campus, recognized as a Tree Campus USA</div></div>
+<div style="padding:44px 0 44px 40px"><div style="font-family:var(--serif);font-size:var(--type-stat);line-height:1;color:var(--crimson)">20+</div><div style="font-size:var(--type-small);color:var(--muted);margin-top:18px">years a U.S. News Best Midwest University</div></div>
+</div>
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:1px solid var(--rule)">
+<div style="padding:44px 40px 44px 0;border-right:1px solid var(--rule)"><div style="font-family:var(--serif);font-size:var(--type-stat);line-height:1;color:var(--crimson)">1,450</div><div style="font-size:var(--type-small);color:var(--muted);margin-top:18px">full-time undergraduates</div></div>
+<div style="padding:44px 40px;border-right:1px solid var(--rule)"><div style="font-family:var(--serif);font-size:var(--type-stat);line-height:1;color:var(--crimson)">13:1</div><div style="font-size:var(--type-small);color:var(--muted);margin-top:18px">student-to-faculty ratio</div></div>
+<div style="padding:44px 0 44px 40px"><div style="font-family:var(--serif);font-size:var(--type-stat);line-height:1;color:var(--crimson)">80+</div><div style="font-size:var(--type-small);color:var(--muted);margin-top:18px">programs of study</div></div>
+</div>
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:1px solid var(--rule)">
+<div style="padding:44px 40px 0 0;border-right:1px solid var(--rule)"><div style="font-family:var(--serif);font-size:var(--type-stat);line-height:1;color:var(--crimson)">51</div><div style="font-size:var(--type-small);color:var(--muted);margin-top:18px">countries and regions represented</div></div>
+<div style="padding:44px 40px 0;border-right:1px solid var(--rule)"><div style="font-family:var(--serif);font-size:var(--type-stat);line-height:1;color:var(--crimson)">100+</div><div style="font-size:var(--type-small);color:var(--muted);margin-top:18px">clubs and organizations</div></div>
+<div style="padding:44px 0 0 40px"><div style="font-family:var(--serif);font-size:var(--type-stat);line-height:1;color:var(--crimson)">34</div><div style="font-size:var(--type-small);color:var(--muted);margin-top:18px">athletic teams</div></div>
+</div>
+</section>
+
+<section data-label="SECTION · Admission" data-screen-label="03" data-speaker-notes="First, what we actually ask for. I want you to leave knowing exactly which documents to gather." style="background:linear-gradient(rgba(166,25,46,.90),rgba(166,25,46,.90)),url('deck-img/stairs.jpg') center/cover no-repeat;padding:var(--pad-top) var(--pad-x) var(--pad-bottom);display:flex;flex-direction:column;justify-content:center">
+<div style="font-size:var(--type-eyebrow);font-weight:600;letter-spacing:.2em;color:#F6D4D9">ONE</div>
+<h2 style="font-family:var(--serif);font-weight:400;font-size:var(--type-section);line-height:1.05;color:#fff;margin:40px 0 0">Admission Requirements</h2>
+</section>
+
+<section data-label="First-Year Requirements" data-screen-label="04" data-speaker-notes="Four documents. No application fee, and no essay required. Bank documents show you can cover the first year — that is a visa requirement, not ours." style="background:var(--paper);color:var(--ink);padding:var(--pad-top) var(--pad-x) var(--pad-bottom)">
+<h2 style="font-family:var(--serif);font-weight:400;font-size:var(--type-title);line-height:1.1;margin:0">First-Year Requirements</h2>
+<p style="font-size:var(--type-subtitle);line-height:1.35;color:var(--muted);margin:20px 0 0">Four documents, and no application fee.</p>
+<div style="display:grid;grid-template-columns:1.35fr 0.65fr;gap:64px;margin-top:var(--gap-title);align-items:stretch">
+<div style="display:grid;grid-template-columns:repeat(2,1fr);gap:28px 64px;align-content:space-between;height:100%">
+<div style="border-top:2px solid var(--ink);padding-top:32px">
+<div style="font-size:var(--type-body);font-weight:600">High school transcript</div>
+<div style="font-size:var(--type-small);line-height:1.5;color:var(--muted);margin-top:14px">An unofficial transcript is accepted for admission. Documents not in English must be translated by a professional translation agency.</div>
+</div>
+<div style="border-top:2px solid var(--ink);padding-top:32px">
+<div style="font-size:var(--type-body);font-weight:600">An English test score</div>
+<div style="font-size:var(--type-small);line-height:1.5;color:var(--muted);margin-top:14px">IELTS UKVI or Academic, TOEFL iBT, Duolingo, SAKAE English Test, SAT, or ACT. Send scores to Drury through the official exam portal for the fastest processing.</div>
+</div>
+<div style="border-top:2px solid var(--ink);padding-top:32px">
+<div style="font-size:var(--type-body);font-weight:600">Bank documents</div>
+<div style="font-size:var(--type-small);line-height:1.5;color:var(--muted);margin-top:14px">Proof of funds for the first year, issued within the last six months. Transaction histories and credit lines are not accepted. We may ask for third-party verification.</div>
+</div>
+<div style="border-top:2px solid var(--ink);padding-top:32px">
+<div style="font-size:var(--type-body);font-weight:600">Passport copy</div>
+<div style="font-size:var(--type-small);line-height:1.5;color:var(--muted);margin-top:14px">The photo page including the machine-readable area, matching the name on your application. The passport must be valid for more than six months.</div>
+</div>
+<div style="grid-column:span 2;border-top:1px solid var(--rule);padding-top:20px;font-size:var(--type-small);line-height:1.5;color:var(--muted)">Attended college-level coursework? Submit a course-by-course evaluation report from a NACES-certified agency such as ECE, The Evaluation Company (TEC), or WES.</div>
+</div>
+<div style="background:#F3F0EB;border:1px solid var(--rule);padding:36px 32px">
+<img src="deck-img/qr-apply.png" alt="QR code linking to apply.drury.edu/apply" style="width:100%;max-width:280px;height:auto;margin:0 auto">
+<div style="font-size:var(--type-small);font-weight:600;text-align:center;margin-top:24px">Apply free at<br>apply.drury.edu/apply</div>
+<div style="margin-top:32px;padding-top:28px;border-top:1px solid var(--rule);font-size:var(--type-small);line-height:1.6;color:var(--muted)">Allen Long<br>Director of International Admission<br>xlong@drury.edu<br>WhatsApp +1 417-607-6394</div>
+</div>
+</div>
+</section>
+
+<section data-label="Scholarship Tiers" data-screen-label="05" data-speaker-notes="This is the slide families photograph. Meet the GPA and any ONE test threshold in a row and that scholarship is automatic at admission — there is no separate application and no interview." style="background:var(--paper);color:var(--ink);padding:var(--pad-top) var(--pad-x) var(--pad-bottom)">
+<h2 style="font-family:var(--serif);font-weight:400;font-size:64px;line-height:1.1;margin:0">Scholarship Tiers</h2>
+<p style="font-size:32px;line-height:1.35;color:var(--muted);margin:22px 0 0">First-time-in-college students, 2027–2028 academic year. Awarded automatically at admission — meet the GPA and any one test score.</p>
+<table style="margin-top:40px;table-layout:fixed">
+<thead><tr style="background:#F3F0EB"><th style="width:20%;text-align:left;font-size:24px;font-weight:600;letter-spacing:.03em;color:var(--muted);padding:18px 9px;border-bottom:2px solid var(--ink);white-space:nowrap">SCHOLARSHIP</th><th style="width:13%;text-align:right;font-size:24px;font-weight:600;letter-spacing:.03em;color:var(--muted);padding:18px 9px;border-bottom:2px solid var(--ink);white-space:nowrap">PER YEAR</th><th style="text-align:right;font-size:24px;font-weight:600;letter-spacing:.03em;color:var(--muted);padding:18px 9px;border-bottom:2px solid var(--ink);white-space:nowrap">GPA</th><th style="text-align:right;font-size:24px;font-weight:600;letter-spacing:.03em;color:var(--muted);padding:18px 9px;border-bottom:2px solid var(--ink);white-space:nowrap">IELTS</th><th style="text-align:right;font-size:24px;font-weight:600;letter-spacing:.03em;color:var(--muted);padding:18px 9px;border-bottom:2px solid var(--ink);white-space:nowrap">TOEFL</th><th style="text-align:right;font-size:24px;font-weight:600;letter-spacing:.03em;color:var(--muted);padding:18px 9px;border-bottom:2px solid var(--ink);white-space:nowrap">DET</th><th style="text-align:right;font-size:24px;font-weight:600;letter-spacing:.03em;color:var(--muted);padding:18px 9px;border-bottom:2px solid var(--ink);white-space:nowrap">SAKAE</th><th style="text-align:right;font-size:24px;font-weight:600;letter-spacing:.03em;color:var(--muted);padding:18px 9px;border-bottom:2px solid var(--ink);white-space:nowrap">SAT</th><th style="text-align:right;font-size:24px;font-weight:600;letter-spacing:.03em;color:var(--muted);padding:18px 9px;border-bottom:2px solid var(--ink);white-space:nowrap">ACT</th></tr></thead>
+<tbody>
+<tr><td style="padding:20px 9px;border-bottom:1px solid var(--rule);font-size:28px;white-space:nowrap;font-weight:600;text-align:left">Trustee</td><td style="padding:20px 9px;border-bottom:1px solid var(--rule);font-size:28px;white-space:nowrap;font-weight:600;color:var(--crimson);text-align:right">$25,000</td><td style="padding:20px 9px;border-bottom:1px solid var(--rule);font-size:28px;white-space:nowrap;color:var(--muted);text-align:right">3.5+</td><td style="padding:20px 9px;border-bottom:1px solid var(--rule);font-size:28px;white-space:nowrap;color:var(--muted);text-align:right">7.0</td><td style="padding:20px 9px;border-bottom:1px solid var(--rule);font-size:28px;white-space:nowrap;color:var(--muted);text-align:right">5.0</td><td style="padding:20px 9px;border-bottom:1px solid var(--rule);font-size:28px;white-space:nowrap;color:var(--muted);text-align:right">130</td><td style="padding:20px 9px;border-bottom:1px solid var(--rule);font-size:28px;white-space:nowrap;color:var(--muted);text-align:right">13</td><td style="padding:20px 9px;border-bottom:1px solid var(--rule);font-size:28px;white-space:nowrap;color:var(--muted);text-align:right">1220</td><td style="padding:20px 9px;border-bottom:1px solid var(--rule);font-size:28px;white-space:nowrap;color:var(--muted);text-align:right">29</td></tr>
+<tr style="background:#FCFBF9"><td style="padding:20px 9px;border-bottom:1px solid var(--rule);font-size:28px;white-space:nowrap;font-weight:600;text-align:left">Presidential</td><td style="padding:20px 9px;border-bottom:1px solid var(--rule);font-size:28px;white-space:nowrap;font-weight:600;color:var(--crimson);text-align:right">$24,000</td><td style="padding:20px 9px;border-bottom:1px solid var(--rule);font-size:28px;white-space:nowrap;color:var(--muted);text-align:right">3.0+</td><td style="padding:20px 9px;border-bottom:1px solid var(--rule);font-size:28px;white-space:nowrap;color:var(--muted);text-align:right">6.5</td><td style="padding:20px 9px;border-bottom:1px solid var(--rule);font-size:28px;white-space:nowrap;color:var(--muted);text-align:right">4.5</td><td style="padding:20px 9px;border-bottom:1px solid var(--rule);font-size:28px;white-space:nowrap;color:var(--muted);text-align:right">120</td><td style="padding:20px 9px;border-bottom:1px solid var(--rule);font-size:28px;white-space:nowrap;color:var(--muted);text-align:right">12</td><td style="padding:20px 9px;border-bottom:1px solid var(--rule);font-size:28px;white-space:nowrap;color:var(--muted);text-align:right">1110</td><td style="padding:20px 9px;border-bottom:1px solid var(--rule);font-size:28px;white-space:nowrap;color:var(--muted);text-align:right">25</td></tr>
+<tr><td style="padding:20px 9px;border-bottom:1px solid var(--rule);font-size:28px;white-space:nowrap;font-weight:600;text-align:left">Provost</td><td style="padding:20px 9px;border-bottom:1px solid var(--rule);font-size:28px;white-space:nowrap;font-weight:600;color:var(--crimson);text-align:right">$21,000</td><td style="padding:20px 9px;border-bottom:1px solid var(--rule);font-size:28px;white-space:nowrap;color:var(--muted);text-align:right">3.0+</td><td style="padding:20px 9px;border-bottom:1px solid var(--rule);font-size:28px;white-space:nowrap;color:var(--muted);text-align:right">6.0</td><td style="padding:20px 9px;border-bottom:1px solid var(--rule);font-size:28px;white-space:nowrap;color:var(--muted);text-align:right">4.0</td><td style="padding:20px 9px;border-bottom:1px solid var(--rule);font-size:28px;white-space:nowrap;color:var(--muted);text-align:right">105</td><td style="padding:20px 9px;border-bottom:1px solid var(--rule);font-size:28px;white-space:nowrap;color:var(--muted);text-align:right">11</td><td style="padding:20px 9px;border-bottom:1px solid var(--rule);font-size:28px;white-space:nowrap;color:var(--muted);text-align:right">1030</td><td style="padding:20px 9px;border-bottom:1px solid var(--rule);font-size:28px;white-space:nowrap;color:var(--muted);text-align:right">23</td></tr>
+<tr style="background:#FCFBF9"><td style="padding:20px 9px;font-size:28px;white-space:nowrap;font-weight:600;text-align:left">Deans</td><td style="padding:20px 9px;font-size:28px;white-space:nowrap;font-weight:600;color:var(--crimson);text-align:right">$18,000</td><td style="padding:20px 9px;font-size:28px;white-space:nowrap;color:var(--muted);text-align:right">3.0+</td><td style="padding:20px 9px;font-size:28px;white-space:nowrap;color:var(--muted);text-align:right">5.5</td><td style="padding:20px 9px;font-size:28px;white-space:nowrap;color:var(--muted);text-align:right">3.5</td><td style="padding:20px 9px;font-size:28px;white-space:nowrap;color:var(--muted);text-align:right">95</td><td style="padding:20px 9px;font-size:28px;white-space:nowrap;color:var(--muted);text-align:right">10</td><td style="padding:20px 9px;font-size:28px;white-space:nowrap;color:var(--muted);text-align:right">1000</td><td style="padding:20px 9px;font-size:28px;white-space:nowrap;color:var(--muted);text-align:right">21</td></tr>
+</tbody>
+</table>
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:48px;margin-top:40px;border-top:1px solid var(--rule);padding-top:28px">
+<div>
+<div style="font-size:var(--type-body);font-weight:600">No separate application</div>
+<div style="font-size:var(--type-small);line-height:1.55;color:var(--muted);margin-top:14px">Academic scholarships are awarded with your admission decision.</div>
+</div>
+<div>
+<div style="font-size:var(--type-body);font-weight:600">Renews each year</div>
+<div style="font-size:var(--type-small);line-height:1.55;color:var(--muted);margin-top:14px">Automatically, as long as academic progression requirements are met.</div>
+</div>
+<div>
+<div style="font-size:var(--type-body);font-weight:600">Merit only</div>
+<div style="font-size:var(--type-small);line-height:1.55;color:var(--muted);margin-top:14px">Drury does not offer need-based scholarships.</div>
+</div>
+</div>
+</section>
+
+<section data-label="IB Diploma" data-screen-label="06" data-speaker-notes="If your child is in the IB Diploma Programme, this is the most important slide for you. Highest scholarship regardless of GPA, up to thirty credit hours, and no English test at all." style="background:var(--dark);padding:var(--pad-top) var(--pad-x) var(--pad-bottom);display:grid;grid-template-columns:1.15fr 1fr;gap:80px;align-items:center">
+<div>
+<div style="font-size:var(--type-eyebrow);font-weight:600;letter-spacing:.2em;color:#E8A9B2">INTERNATIONAL BACCALAUREATE</div>
+<h2 style="font-family:var(--serif);font-weight:400;font-size:var(--type-title);line-height:1.12;color:#fff;margin:40px 0 0">IB Diploma students receive our highest scholarship</h2>
+<p style="font-size:var(--type-body);line-height:1.6;color:#D6D2CB;margin:36px 0 0">Students pursuing completion of the diploma are awarded the Trustee Scholarship on admission, regardless of GPA.</p>
+</div>
+<div style="border-left:1px solid #3B3833;padding-left:64px">
+<div style="font-family:var(--serif);font-size:var(--type-stat);line-height:1;color:#fff">$25,000</div>
+<div style="font-size:var(--type-small);font-weight:500;letter-spacing:.07em;color:#A9A49C;margin-top:20px">PER YEAR</div>
+<div style="font-size:var(--type-small);line-height:1.55;color:#D6D2CB;margin-top:36px">Plus up to 30 hours of college credit and a waived English test requirement.</div>
+</div>
+</section>
+
+<section data-label="Cost of Attendance" data-screen-label="07" data-speaker-notes="Be direct about this number. Fifty-two thousand before aid — then subtract the scholarship from two slides ago. A Trustee student is looking at roughly twenty-eight thousand." style="background:var(--paper);color:var(--ink);padding:var(--pad-top) var(--pad-x) var(--pad-bottom)">
+<h2 style="font-family:var(--serif);font-weight:400;font-size:var(--type-title);line-height:1.1;margin:0">Cost of Attendance</h2>
+<div style="display:inline-block;background:#FBF1C7;border-bottom:2px dashed #B08900;font-size:26px;line-height:1.4;color:#4A4640;padding:8px 14px;margin-top:20px">2026–2027 figures shown — [2027–2028 cost of attendance to be supplied]</div>
+<div style="display:grid;grid-template-columns:0.9fr 1.1fr;gap:80px;margin-top:var(--gap-title);align-items:start">
+<div>
+<div style="font-size:var(--type-eyebrow);font-weight:600;letter-spacing:.14em;color:var(--muted)">ESTIMATED TOTAL, BEFORE AID</div>
+<div style="font-family:var(--serif);font-size:136px;line-height:1;margin-top:28px">$52,234</div>
+<div style="font-size:var(--type-small);line-height:1.5;color:var(--muted);margin-top:28px">Based on the LewerMark insurance rate and Lydy Hall with the 120-block meal plan.</div>
+</div>
+<dl style="margin:0;border-top:2px solid var(--ink)">
+<div style="display:flex;justify-content:space-between;gap:32px;padding:28px 0;border-bottom:1px solid var(--rule)"><dt style="font-size:var(--type-body)">Tuition</dt><dd style="margin:0;font-size:var(--type-body);font-weight:600">$37,950</dd></div>
+<div style="display:flex;justify-content:space-between;gap:32px;padding:28px 0;border-bottom:1px solid var(--rule)"><dt style="font-size:var(--type-body)">Required fees</dt><dd style="margin:0;font-size:var(--type-body);font-weight:600">$1,639</dd></div>
+<div style="display:flex;justify-content:space-between;gap:32px;padding:28px 0;border-bottom:1px solid var(--rule)"><dt style="font-size:var(--type-body)">International insurance</dt><dd style="margin:0;font-size:var(--type-body);font-weight:600">≈ $2,200</dd></div>
+<div style="display:flex;justify-content:space-between;gap:32px;padding:28px 0"><dt style="font-size:var(--type-body)">Room and board</dt><dd style="margin:0;font-size:var(--type-body);font-weight:600">$10,384</dd></div>
+</dl>
+</div>
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:56px;margin-top:52px;border-top:1px solid var(--rule);padding-top:32px">
+<div>
+<div style="font-size:var(--type-body);font-weight:600">Program fees, where they apply</div>
+<div style="font-size:var(--type-small);line-height:1.55;color:var(--muted);margin-top:14px">Engineering and Architecture add $1,200 per semester. Nursing adds $1,125 when ASN coursework begins.</div>
+</div>
+<div>
+<div style="font-size:var(--type-body);font-weight:600">Paying from overseas</div>
+<div style="font-size:var(--type-small);line-height:1.55;color:var(--muted);margin-top:14px">PayMyTuition and Flywire handle international transfers. CashNet and a monthly payment plan are available once you are here.</div>
+</div>
+<div>
+<div style="font-size:var(--type-body);font-weight:600">Spring entry differs</div>
+<div style="font-size:var(--type-small);line-height:1.55;color:var(--muted);margin-top:14px">Starting in the spring semester changes the breakdown. Ask your admission counselor for a figure.</div>
+</div>
+</div>
+</section>
+
+<section data-label="SECTION · Springfield" data-screen-label="08" data-speaker-notes="Now: where your child would actually live. Most families have never heard of Springfield, so spend time here." style="background:linear-gradient(rgba(166,25,46,.90),rgba(166,25,46,.90)),url('deck-img/aerial.jpg') center/cover no-repeat;padding:var(--pad-top) var(--pad-x) var(--pad-bottom);display:flex;flex-direction:column;justify-content:center">
+<div style="font-size:var(--type-eyebrow);font-weight:600;letter-spacing:.2em;color:#F6D4D9">TWO</div>
+<h2 style="font-family:var(--serif);font-weight:400;font-size:var(--type-section);line-height:1.05;color:#fff;margin:40px 0 0">Springfield and Campus</h2>
+</section>
+
+<section data-label="The Big Small Town" data-screen-label="09" data-speaker-notes="Springfield is a real city, not a remote college town — the university calls it the big small town that has it all. Minor-league baseball and a city park are both walkable from campus, and the Ozarks start minutes away." style="background:var(--paper);color:var(--ink);display:grid;grid-template-columns:1fr 1fr">
+<div style="padding:var(--pad-top) 70px var(--pad-bottom) var(--pad-x);display:flex;flex-direction:column;justify-content:center">
+<h2 style="font-family:var(--serif);font-weight:400;font-size:var(--type-title);line-height:1.1;margin:0">The Big Small Town</h2>
+<p style="font-size:var(--type-body);line-height:1.6;color:var(--muted);margin:32px 0 0">Springfield is the birthplace of Route 66 and the heartland of American culture — Midwestern charm, a safe and temperate climate, and Ozark streams and lakes just minutes from campus. There is something on every weekend: the farmers market, Artsfest, fall festivals, Renaissance fairs, and festivals from around the world all year round. Springfield Cardinals baseball is a short walk away, and Springfield-Branson National Airport connects students home through major U.S. hubs.</p>
+</div>
+<img src="deck-img/students-walking.jpg" alt="Three Drury students walking across campus on a sunny autumn day" style="width:100%;height:100%;object-fit:cover;object-position:50% 40%">
+</section>
+
+<section data-label="Come Home to Campus" data-screen-label="10" data-speaker-notes="Ninety acres, and everything is walkable — students cross campus in ten minutes. Panther Palooza, Late Night Breakfast, the Final Roar: traditions are how new international students meet people in week one." style="background:var(--dark);padding:72px var(--pad-x) 56px;display:flex;flex-direction:column">
+<h2 style="font-family:var(--serif);font-weight:400;font-size:var(--type-title);line-height:1.1;color:#fff;margin:0">Come Home to Campus</h2>
+<p style="font-size:var(--type-body);line-height:1.6;color:#D6D2CB;margin:32px 0 0;max-width:44em">Across 90+ acres, you will dive into college life to the fullest — and before you know it, feel right at home. From Panther Palooza and Late-Night Breakfast to the Final Roar, the moments that bring our community together are what make Drury special. With 100+ clubs, organizations, and teams, there is a place for every person and every passion. Which three, four, five, or more will you join?</p>
+<div style="display:grid;grid-template-columns:2fr 1fr 1fr;grid-template-rows:minmax(0,1fr);gap:28px;margin-top:var(--gap-title);flex:1 1 0;min-height:0;overflow:hidden">
+
+<img src="deck-img/campus-aerial-field.jpg" alt="Aerial view of a Drury residence hall beside the athletic field at sunrise" style="width: 100%; height: 100%; object-fit: fill"><img src="deck-img/lacrosse.jpg" alt="Drury lacrosse players on the field in front of blossoming spring trees" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 40%">
+<img src="deck-img/students-talking.jpg" alt="Three students talking beside the 1873 campus marker in spring" style="width:100%;height:100%;object-fit:cover;object-position:55% 50%">
+</div>
+</section>
+
+<section data-label="Residential Life" data-screen-label="11" data-speaker-notes="Housing is guaranteed and international students are placed before arrival, so nobody lands without a room. The safety figures on this slide need to come from Campus Security before we present." style="background:var(--paper);color:var(--ink);padding:var(--pad-top) var(--pad-x) var(--pad-bottom);display:flex;flex-direction:column">
+<h2 style="font-family:var(--serif);font-weight:400;font-size:var(--type-title);line-height:1.1;margin:0">Residential Life and Safety</h2>
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:48px;margin-top:var(--gap-title)">
+<div style="border-top:2px solid var(--ink);padding-top:28px">
+<div style="font-size:var(--type-subtitle);font-family:var(--serif);line-height:1.2">On-campus housing</div>
+<div style="font-size:var(--type-small);line-height:1.55;color:var(--muted);margin-top:18px">Residence halls including Lydy Hall, with meal plans taken in the campus dining hall.</div>
+</div>
+<div style="border-top:2px solid var(--ink);padding-top:28px">
+<div style="font-size:var(--type-subtitle);font-family:var(--serif);line-height:1.2">A walkable campus</div>
+<div style="font-size:var(--type-small);line-height:1.55;color:var(--muted);margin-top:18px">Classes, dining, the library, and athletics all within the same 90 acres.</div>
+</div>
+<div style="background:#FBF1C7;padding:28px;border-top:2px solid #B08900">
+<div style="font-size:var(--type-subtitle);font-family:var(--serif);line-height:1.2">Campus safety</div>
+<div style="font-size:var(--type-small);line-height:1.55;color:var(--muted);margin-top:18px">[Safety provisions and figures to come from Campus Security — not yet supplied]</div>
+</div>
+</div>
+<div style="display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:minmax(0,1fr);gap:48px;margin-top:40px;flex:1 1 0;min-height:0;overflow:hidden">
+<img src="./_mg_7138-mtxc9ye9-n13e.webp" alt="Students on campus in spring" style="width: 526px; height: 442px; object-fit: contain">
+<img src="./_mg_5990-mtxc3mqr-fpur.webp" alt="Students on campus" style="width: 528px; height: 448px; object-fit: contain">
+<div style="display:flex;flex-direction:column;gap:32px;border-top:2px solid var(--ink);padding-top:24px;min-height:0;overflow:hidden">
+<div>
+<div style="font-family:var(--serif);font-size:68px;line-height:1;color:var(--crimson)">90+</div>
+<div style="font-size:var(--type-small);color:var(--muted);margin-top:12px">walkable acres</div>
+</div>
+<div>
+<div style="font-family:var(--serif);font-size:68px;line-height:1;color:#8E877E">00</div>
+<div style="font-size:var(--type-small);color:var(--muted);margin-top:12px">[housing statistic to confirm]</div>
+</div>
+</div>
+</div>
+</section>
+
+<section data-label="SECTION · Applying" data-screen-label="12" data-speaker-notes="The process. Five steps, and I am your contact at every one of them." style="background:linear-gradient(rgba(166,25,46,.90),rgba(166,25,46,.90)),url('deck-img/event.jpg') center/cover no-repeat;padding:var(--pad-top) var(--pad-x) var(--pad-bottom);display:flex;flex-direction:column;justify-content:center">
+<div style="font-size:var(--type-eyebrow);font-weight:600;letter-spacing:.2em;color:#F6D4D9">THREE</div>
+<h2 style="font-family:var(--serif);font-weight:400;font-size:var(--type-section);line-height:1.05;color:#fff;margin:40px 0 0">Application and Enrollment</h2>
+</section>
+
+<section data-label="The Application Process" data-screen-label="13" data-speaker-notes="Walk the five steps slowly. The honest timeline: from a complete application, students typically have an I-20 in hand within weeks — book the visa interview the day it arrives." style="background:var(--paper);color:var(--ink);padding:var(--pad-top) var(--pad-x) var(--pad-bottom)">
+<h2 style="font-family:var(--serif);font-weight:400;font-size:var(--type-title);line-height:1.1;margin:0">The Application Process</h2>
+<div style="display:grid;grid-template-columns:repeat(5,1fr);gap:36px;margin-top:var(--gap-title)">
+<div style="border-top:2px solid var(--crimson);padding-top:32px">
+<div style="font-size:var(--type-eyebrow);font-weight:600;color:var(--crimson);letter-spacing:.1em">01</div>
+<div style="font-size:var(--type-body);font-weight:600;line-height:1.3;margin-top:20px">Apply free</div>
+<div style="font-size:var(--type-small);line-height:1.55;color:var(--muted);margin-top:16px">No fee, no essay.</div>
+</div>
+<div style="border-top:2px solid var(--crimson);padding-top:32px">
+<div style="font-size:var(--type-eyebrow);font-weight:600;color:var(--crimson);letter-spacing:.1em">02</div>
+<div style="font-size:var(--type-body);font-weight:600;line-height:1.3;margin-top:20px">Send documents</div>
+<div style="font-size:var(--type-small);line-height:1.55;color:var(--muted);margin-top:16px">Transcript, test score, bank documents, passport.</div>
+</div>
+<div style="border-top:2px solid var(--crimson);padding-top:32px">
+<div style="font-size:var(--type-eyebrow);font-weight:600;color:var(--crimson);letter-spacing:.1em">03</div>
+<div style="font-size:var(--type-body);font-weight:600;line-height:1.3;margin-top:20px">Receive your offer</div>
+<div style="font-size:var(--type-small);line-height:1.55;color:var(--muted);margin-top:16px">Admission and scholarship together.</div>
+</div>
+<div style="border-top:2px solid var(--crimson);padding-top:32px">
+<div style="font-size:var(--type-eyebrow);font-weight:600;color:var(--crimson);letter-spacing:.1em">04</div>
+<div style="font-size:var(--type-body);font-weight:600;line-height:1.3;margin-top:20px">I-20 and visa</div>
+<div style="font-size:var(--type-small);line-height:1.55;color:var(--muted);margin-top:16px">We issue the I-20; you book the interview.</div>
+</div>
+<div style="border-top:2px solid var(--crimson);padding-top:32px">
+<div style="font-size:var(--type-eyebrow);font-weight:600;color:var(--crimson);letter-spacing:.1em">05</div>
+<div style="font-size:var(--type-body);font-weight:600;line-height:1.3;margin-top:20px">Arrive and orient</div>
+<div style="font-size:var(--type-small);line-height:1.55;color:var(--muted);margin-top:16px">Airport pickup and international orientation.</div>
+</div>
+</div>
+</section>
+
+<section data-label="The Compass Center" data-screen-label="14" data-speaker-notes="This answers the question parents really ask: who looks after my child. One building, five services, and the International Student Services office alongside it." style="background:var(--paper);color:var(--ink);display:grid;grid-template-columns:1fr 1fr">
+<div style="padding:var(--pad-top) 70px var(--pad-bottom) var(--pad-x);display:flex;flex-direction:column;justify-content:center">
+<div style="font-size:var(--type-eyebrow);font-weight:600;letter-spacing:.16em;color:var(--crimson)">SUPPORT AND STUDENT SUCCESS</div>
+<h2 style="font-family:var(--serif);font-weight:400;font-size:var(--type-title);line-height:1.1;margin:36px 0 0">The Compass Center</h2>
+<p style="font-size:var(--type-body);line-height:1.6;color:var(--muted);margin:32px 0 0">Advisors who help identify strengths, career interests, and life goals — in one place.</p>
+<ul style="list-style:none;margin:44px 0 0;padding:0;display:flex;flex-direction:column;gap:22px">
+<li style="display:flex;gap:20px;align-items:baseline"><span style="color:var(--crimson);font-size:var(--type-body)">›</span><span style="font-size:var(--type-body)">Academic advising</span></li>
+<li style="display:flex;gap:20px;align-items:baseline"><span style="color:var(--crimson);font-size:var(--type-body)">›</span><span style="font-size:var(--type-body)">Career planning and development</span></li>
+<li style="display:flex;gap:20px;align-items:baseline"><span style="color:var(--crimson);font-size:var(--type-body)">›</span><span style="font-size:var(--type-body)">Study abroad guidance</span></li>
+<li style="display:flex;gap:20px;align-items:baseline"><span style="color:var(--crimson);font-size:var(--type-body)">›</span><span style="font-size:var(--type-body)">Accessibility and disability services</span></li>
+<li style="display:flex;gap:20px;align-items:baseline"><span style="color:var(--crimson);font-size:var(--type-body)">›</span><span style="font-size:var(--type-body)">Tutoring and writing centers</span></li>
+</ul>
+</div>
+<img src="./_mg_8786-mtxcci0x-5te1.webp" alt="Drury students working together" style="width: 100%; height: 100%; object-fit: cover">
+</section>
+
+<section data-label="Three Credentials" data-screen-label="15" data-speaker-notes="Every graduate leaves with three credentials in the same 124 hours — no extra year, no extra tuition. Agents: this is the line that differentiates us from every competitor on your list." style="background:var(--dark);padding:var(--pad-top) var(--pad-x) var(--pad-bottom);display:flex;flex-direction:column">
+<h2 style="font-family:var(--serif);font-weight:400;font-size:var(--type-title);line-height:1.1;color:#fff;margin:0">Three Credentials, One Degree</h2>
+<p style="font-size:var(--type-subtitle);line-height:1.35;color:#D6D2CB;margin:32px 0 0">Every student graduates with three credentials, all within 124 credit hours.</p>
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:var(--gap-title)">
+<div style="border:1px solid #3B3833;padding:48px 40px">
+<div style="font-family:var(--serif);font-size:64px;line-height:1;color:#E8A9B2">01</div>
+<div style="font-size:var(--type-subtitle);color:#fff;margin-top:28px">One major</div>
+</div>
+<div style="border:1px solid #3B3833;padding:48px 40px">
+<div style="font-family:var(--serif);font-size:64px;line-height:1;color:#E8A9B2">02</div>
+<div style="font-size:var(--type-subtitle);color:#fff;margin-top:28px">One certificate</div>
+</div>
+<div style="border:1px solid #3B3833;padding:48px 40px">
+<div style="font-family:var(--serif);font-size:64px;line-height:1;color:#E8A9B2">03</div>
+<div style="font-size:var(--type-subtitle);color:#fff;margin-top:28px">A third of your choice</div>
+</div>
+</div>
+<p style="font-size:var(--type-small);line-height:1.6;color:#A9A49C;margin:44px 0 0;max-width:44em">Graduates also receive a Drury Skills Transcript, linking coursework to marketable skills for employers and graduate programs.</p>
+</section>
+
+<section data-label="Where Graduates Go" data-screen-label="16" data-speaker-notes="Two real graduates. Anh came from Vietnam and now works at an architecture firm in St. Louis — that is the outcome families are buying." style="background:var(--paper);color:var(--ink);padding:var(--pad-top) var(--pad-x) var(--pad-bottom)">
+<h2 style="font-family:var(--serif);font-weight:400;font-size:var(--type-title);line-height:1.1;margin:0">Where Graduates Go</h2>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:72px;margin-top:var(--gap-title)">
+<div style="display:grid;grid-template-columns:auto 1fr;gap:36px;align-items:start">
+<img src="deck-img/anh.jpg" alt="Anh Vi" style="width:220px;height:280px;object-fit:cover">
+<div>
+<div style="font-size:var(--type-eyebrow);font-weight:600;letter-spacing:.1em;color:var(--crimson)">ARCHITECTURE · VIETNAM</div>
+<div style="font-family:var(--serif);font-size:var(--type-subtitle);margin-top:18px">Anh Vi</div>
+<p style="font-size:var(--type-small);line-height:1.55;color:var(--muted);margin:20px 0 0">Blends sustainability with Vietnam's craft heritage. Now at CJB Architecture and Design in St. Louis.</p>
+</div>
+</div>
+<div style="display:grid;grid-template-columns:auto 1fr;gap:36px;align-items:start">
+<img src="deck-img/mikayla.jpg" alt="Mikayla Yarbrough" style="width:220px;height:280px;object-fit:cover;object-position:50% 20%">
+<div>
+<div style="font-size:var(--type-eyebrow);font-weight:600;letter-spacing:.1em;color:var(--crimson)">BIOCHEMISTRY · PRE-MED</div>
+<div style="font-family:var(--serif);font-size:var(--type-subtitle);margin-top:18px">Mikayla Yarbrough</div>
+<p style="font-size:var(--type-small);line-height:1.55;color:var(--muted);margin:20px 0 0">Accepted into the School of Medicine at Mizzou, on a scholarship covering all tuition and fees.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section data-label="Your Next Steps" data-screen-label="17" data-speaker-notes="Close here and leave this slide up for questions. Ask everyone to email me tonight with their student's grade level and intended major — that is all I need to start." style="background:var(--dark);display:grid;grid-template-columns:1fr 0.8fr">
+<div style="padding:var(--pad-top) var(--pad-x) var(--pad-bottom);display:flex;flex-direction:column;justify-content:center">
+<h2 style="font-family:var(--serif);font-weight:400;font-size:var(--type-title);line-height:1.1;color:#fff;margin:0">Your Next Steps</h2>
+<ul style="list-style:none;margin:var(--gap-title) 0 0;padding:0;display:flex;flex-direction:column;gap:28px">
+<li style="display:flex;gap:22px;align-items:baseline"><span style="color:#E8A9B2;font-size:var(--type-subtitle)">›</span><span style="font-size:var(--type-subtitle);color:#fff">Apply at drury.edu/ApplyToday</span></li>
+<li style="display:flex;gap:22px;align-items:baseline"><span style="color:#E8A9B2;font-size:var(--type-subtitle)">›</span><span style="font-size:var(--type-subtitle);color:#fff">Email your transcript for a scholarship estimate</span></li>
+<li style="display:flex;gap:22px;align-items:baseline"><span style="color:#E8A9B2;font-size:var(--type-subtitle)">›</span><span style="font-size:var(--type-subtitle);color:#fff">Book a meeting in your time zone</span></li>
+</ul>
+<div style="margin-top:auto;padding-top:56px;border-top:1px solid #3B3833">
+<div style="font-size:var(--type-body);color:#fff;font-weight:600">Allen Long</div>
+<div style="font-size:var(--type-small);line-height:1.6;color:#A9A49C;margin-top:14px">Director of International Admission<br>xlong@drury.edu · WhatsApp +1 417-607-6394<br>Replies within 2 business days · Central Time</div>
+</div>
+</div>
+<img src="deck-img/grads.jpg" alt="Drury graduates at commencement" style="width:100%;height:100%;object-fit:cover">
+</section>
+
+</x-import>
+</x-dc>
+</body>
+</html>
