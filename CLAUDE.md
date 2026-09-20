@@ -52,3 +52,22 @@ The arrow is what marks the row as clickable — never omit it, and never use th
 rows that are not links (a two-column table of terms and explanations keeps the same layout
 without the arrow and without the anchor). Use the card link pattern instead when the items
 belong side by side in a row rather than stacked.
+
+## Card footer links
+When a row of cards ends in a link on each card ("Full instructions →", "Payment plan
+information →"), the link is the card's **footer**: pinned to the bottom of the card above a
+hairline rule, so every card in the row ends on the same baseline regardless of body length.
+In the Astro codebase this is `InfoCard`'s `footer` slot:
+
+```astro
+<InfoCards>
+  <InfoCard eyebrow="ACCEPT YOUR AWARDS" tone="ink">
+    <p>Body copy…</p>
+    <ExtLink slot="footer" href="…">Full instructions with screenshots →</ExtLink>
+  </InfoCard>
+</InfoCards>
+```
+
+Do not hand-place a link as the last paragraph of a card; use the slot so the rule, spacing,
+and bottom alignment stay consistent. One link per footer; the arrow marks it as the card's
+action.
